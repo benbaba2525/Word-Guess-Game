@@ -1,0 +1,30 @@
+body {
+    background: rgb(142, 223, 233);
+    font-family: 'Londrina Solid', cursive;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+.lead{
+    color:beige;
+    font-size: 25px;
+}
+
+#gameover-image, #youwin-image {
+    margin:auto;
+  }
+
+h1,h2, h3,h4,p{
+    text-align: center;
+}
+
+.clue{
+    color:beige;
+}
+
+#gameWins, #gameLosses, #guessesLeft, #userGuesses, #currentWord{
+    color:rgb(242, 46, 11);
+    font-size: 22px;
+    text-align: center;
+}

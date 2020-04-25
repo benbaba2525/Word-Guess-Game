@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking to Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Linking to jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   <!-- Linking to Google Fonts-->
+   <link href="https://fonts.googleapis.com/css?family=Londrina+Solid|PT+Sans" rel="stylesheet">
+   <!-- Linkin to icon -->
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+   <!-- Linking to CSS -->
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+   <title>Clue Word Guess Game</title>
+</head>
+
+<body> 
+   
+        <div class="row no-gutters  position-relative" style="background-color:  rgb(245, 90, 116);" >
+            <p></p>
+            <p></p>
+          <div class="col-s-6 mb-s-0 p-s-4 ml-auto" style="background-color:  rgb(245, 90, 116);">
+            
+            <img src="assets/images/logo.jpg" class="w-100"  alt="My Picture">
+          </div>
+       <div class="col-s-6 position-static p-4 pl-s-4 mr-auto">
+
+        <h1 class="display-4"><i class="fa fa-gamepad" style="padding: 20px;" aria-hidden="true"></i>Clue Word Guess Game
+        <i class="fa fa-trophy"style="padding: 20px;"aria-hidden="true"></i>
+        </h1>
+        
+    </div>
+</div>
+    
+<!-- Main Word Guess Game -->
+
+<div class="container border border-secondary mt-5">
+  <div class="wrapper">
+
+    <!-- Left Side-->
+    <div class="row no-gutters bg-light position-relative">
+      <div class="col-md-5 mb-md-0 p-md-4" style="background-color: rgb(20, 31, 40);">
+       
+     <br>
+     <h1 id="pStart"style="padding-bottom:5px; color:rgb(240, 96, 39);">Press any Key start!</h1>
+     <p class="lead"><u>Hint !!</u></p>
+     <br>
+     <h3 class="clue"></h3>
+  
+    </div>
+
+ <!-- Right Side-->
+ 
+   <div class="col-md-7 position-static p-4 pl-md-4" style="background-color:rgb(71, 247, 71) ;">
+   
+   <table class="game-content m-auto">
+    <tbody>
+        <tr>
+            <td>
+              <img id="youwin-image" src="assets/images/win.jpg" alt="Winning Image" />
+              <img id="gameover-image" src="assets/images/game-over.jpg" alt="Game Over Image" />
+                <h1 id="pressKeyTryAgain">Press Any Key to Try Again!!</h1>
+                <h4>Wins : </h4>  <div id="gameWins"></div>
+                <h4>Current Word : </h4> <div id="currentWord"></div>
+                <h4>Losses : </h4>  <div id="gameLosses"></div>
+                <h4 style="padding-top:10px;">Guesses Left : </h4>  <div id="guessesLeft"></div>
+                <h4>All Guesses : </h4>  <div id="userGuesses"></div>
+            </td>
+        </tr>
+    </tbody>      
+</table>
+   
+        </div>
+    </div>
+ </div>
+
+       
+   <!-- Footer  -->
+  
+   <nav class="navbar navbar-nav fixed-bottom  navbar-center  navbar-light text-white-50 bg-dark" >
+    <footer>Copyright &copy;</footer>
+  </nav>
+    
+
+
+<!-- Linking JS -->
+<script type="text/javascript" src="assets/javascript/game.js"></script>    
+
+</body>
+</html>
