@@ -10,12 +10,6 @@ var finishedGame = false;   // Flag for 'press any key to try again'
 var wins = 0;               //wins
 var losses = 0;             //losses
 
-// key entered sound
-var keySound = new Audio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/bad.mp3');
-
-
-
-
 // start the game
 function startGame() {
     guessesLeft = totalGuesses;
@@ -23,7 +17,7 @@ function startGame() {
     //grab a random number from the xmenCharacters array  (number of words)
     computerPick = Math.floor(Math.random() * (answerChoices.length));
 
-    if(answerChoices[computerPick] ==answerChoices[0]) {
+    if(answerChoices[computerPick] == answerChoices[0]) {
         $('.clue').text("Yellow car in New York City");
     }else if(answerChoices[computerPick] == answerChoices[1]) {
         $('.clue').text("Front and _ _ _ _");
@@ -65,7 +59,6 @@ function startGame() {
 
 //  Updates the display on the HTML Page
 function refreshScreen() {
-
     document.getElementById("gameWins").innerText = wins;
     document.getElementById("gameLosses").innerText = losses;
 
@@ -133,9 +126,14 @@ function makeGuess(letter) {
         if (userGuesses.indexOf(letter) === -1) {
             userGuesses.push(letter);
             evaluateGuess(letter);
+        
         }
+    
     }
+
 };
+
+
 
 // Event listener
 document.onkeydown = function(event) {
@@ -146,6 +144,7 @@ document.onkeydown = function(event) {
     } else {
         // Check to make sure a-z was pressed.
         if(event.keyCode >= 65 && event.keyCode <= 90) {
+            var keySound = new Audio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/bad.mp3');
             keySound.play();
             makeGuess(event.key.toUpperCase());
             checkWin();
@@ -153,4 +152,5 @@ document.onkeydown = function(event) {
             refreshScreen();
         }
     }
+
 };
