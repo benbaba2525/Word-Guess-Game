@@ -27,6 +27,7 @@ When player lose!! losses number will increase, the game over soud will turn on 
    <li>Javascript</li>
   <li>jQuery</li>
   <li>Google Fonts</li>
+  <li>Font Awesome Icon</li>
 </ul>
 
 <h2 style =" border-bottom:1px;">Authors</h2>
