@@ -42,7 +42,7 @@ When player lose!! losses number will increase, the game over soud will turn on 
 <h2 style =" border-bottom:1px;">Helpful Link</h2>
 
 <ul>
-  <li><a target="_blank" rel="nofollow" href="https://www.w3schools.com/js/default.asp">Javascript</a></li>
+  <li><a target="_blank" rel="nofollow" href="https://www.w3schools.com/js/default.asp">w3schools: Javascript</a></li>
   <li><a target="_blank" rel="nofollow" href="https://www.w3schools.com/jquery/default.asp">w3schools: jQuery</a></li>
   <li><a target="_blank" rel="nofollow" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN : Javascript</a></li>
 </ul>
