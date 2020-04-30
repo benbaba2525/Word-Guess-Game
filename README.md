@@ -5,8 +5,10 @@ Press any key to get started!
 When game started, Computer will random the hint sentence, Player will guess the word from a hint sentence.
 Wins: (# of times user guessed the word correctly).
 Example.
-If the word is madonna, display it like this when the game starts: _ _ _ _ _ _ _.
-As the player guesses the correct letters, reveal them: m a d o _ _ a.
+If the word is madonna, display it like this when 
+the game starts: _ _ _ _ _ _ _.
+As the player guesses the correct letters,
+reveal them: m a d o _ _ a.
 
 Number of Guesses Remaining: (# of guesses remaining for the player).
 Letters Already Guessed: (Letters the user has guessed, displayed like L Z Y H).
@@ -34,7 +36,7 @@ When player lose!! losses number will increase, the game over soud will turn on 
 
 <h2 style =" border-bottom:1px;">Acknowledgments</h2>
 <ul>
-  <li>UCLA Coding Bootcamp   <a target="_blank" rel="nofollow" href="https://github.com/benbaba2525">Visit UCLA Coding Bootcamp</a></li>
+  <li>UCLA Coding Bootcamp   <a target="_blank" rel="nofollow" href="https://bootcamp.uclaextension.edu/coding/">Visit UCLA Coding Bootcamp</a></li>
 </ul>
 
 <h2 style =" border-bottom:1px;">Helpful Link</h2>
