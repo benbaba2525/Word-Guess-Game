@@ -1,4 +1,6 @@
 # Word-Guess-Game
+ <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/Word-Guess-Game/">Check it out on Live</a>
+
 <h2>Here's how the app works:</h2>
 Display the following on the page. 
 Press any key to get started!
