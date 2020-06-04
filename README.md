@@ -34,7 +34,10 @@ When player lose!! losses number will increase, the game over soud will turn on 
 
 <h2 style =" border-bottom:1px;">Authors</h2>
 <ul>
-  <li>Kanyarut Pornamnuay   <a target="_blank" rel="nofollow" href="https://github.com/benbaba2525">Visit My Github Profile</a></li>
+  <li>Kanyarut Pornamnuay
+  <br><a target="_blank" rel="nofollow" href="https://github.com/benbaba2525">Visit My Github Profile</a>
+  <br><a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/My-Portfolio/">Visit My Portfolio</a>
+ </li>
 </ul>
 
 <h2 style =" border-bottom:1px;">Acknowledgments</h2>
